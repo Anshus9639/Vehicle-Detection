@@ -7,12 +7,6 @@
 ## Overview
 This project is a deep learning model capable of detecting several classes of vehicles in various road conditions. The model was trained on a **general-purpose dataset of over 4,000 images** using the YOLOv8 architecture, making it adaptable to different traffic environments.
 
-## Demo
-Here's a sample of the model's current performance on a test image:
-
-![Demo Image](demo_images/your_best_screenshot.png)
-*(A detection example showing the new classes)*
-
 ## Features
 - Detects multiple vehicle classes: **[List your new classes here, e.g., car, bus, truck, small-truck, etc.]**
 - Built with PyTorch and the `ultralytics` YOLOv8 library.
@@ -45,4 +39,5 @@ This model performs well in clear, daylight conditions but has some known limita
 ## How to Run
 1. Clone the repository.
 2. Install dependencies: `pip install -r requirements.txt`.
+
 3. Run inference using the `best.pt` model.
